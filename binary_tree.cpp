@@ -61,7 +61,7 @@ private:
 	// 当前树的结点个数
 	int size;
 	int height;   //树高
-	void remove_all(TNode<T> *proot);
+	void remove_all(TNode<T> *proot);	//后序遍历删除所有结点
 	void pre_traverse(TNode<T> *proot);
 	void in_traverse(TNode<T> *proot);
 	void layer_traverse(TNode<T> *proot, int layer, int count);
